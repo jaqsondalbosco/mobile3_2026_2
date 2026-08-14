@@ -1,0 +1,20 @@
+# Extensões
+*.log
+*.apk
+*.ap_
+*.aab
+*.class
+*.pid
+*.seed
+*.pid.lock
+#.env
+#.env.test
+#.env.production
+
+#Pastas
+build/
+dist/
+out/
+logs/
+.gradle/
+#.vscode/
