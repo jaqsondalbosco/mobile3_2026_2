@@ -25,7 +25,7 @@ class SobrePage extends StatelessWidget {
             ),
             const SizedBox(height: 16, width: 50),
             const Text(
-              'Este aplicativo de exemplo demonstra uma tela sobre com um app bar verde e um bot�o para voltar.',
+              'Este aplicativo de exemplo demonstra uma tela sobre com um app bar verde e um botão para voltar.',
               style: TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 24),

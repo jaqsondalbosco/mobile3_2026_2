@@ -1,5 +1,6 @@
 import 'package:app_aula/telas/contador.dart';
 import 'package:app_aula/telas/home.dart';
+import 'package:app_aula/telas/login.dart';
 import 'package:app_aula/telas/sobre.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App Aula',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.blueGrey)),
-      home: const HomePage(),
+      home: const LoginPage(),
       routes: {
         '/home': (context) => const HomePage(),
         '/contador': (context) =>
